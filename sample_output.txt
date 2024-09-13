@@ -1,0 +1,80 @@
+Contents of sample text files before and after preprocessing:
+
+Contents of file502.txt before preprocessing:Kit is awesome. I play in my garage just for personal enjoyment not for performances or anything. Once you take the time to break down all the settings, your able to dial in pretty much any kit and sound. With the expansion options and the relatively inexpensive parts expanding is easy and fun.
+
+After a few weeks of daily use for at least an hour a day it still looks and plays beautifully. Overall one of the best purchases I could have made.
+
+Contents of file502.txt after lowering:kit is awesome. i play in my garage just for personal enjoyment not for performances or anything. once you take the time to break down all the settings, your able to dial in pretty much any kit and sound. with the expansion options and the relatively inexpensive parts expanding is easy and fun.
+
+after a few weeks of daily use for at least an hour a day it still looks and plays beautifully. overall one of the best purchases i could have made.
+
+Contents of file502.txt after tokenization:['kit', 'is', 'awesome', '.', 'i', 'play', 'in', 'my', 'garage', 'just', 'for', 'personal', 'enjoyment', 'not', 'for', 'performances', 'or', 'anything', '.', 'once', 'you', 'take', 'the', 'time', 'to', 'break', 'down', 'all', 'the', 'settings', ',', 'your', 'able', 'to', 'dial', 'in', 'pretty', 'much', 'any', 'kit', 'and', 'sound', '.', 'with', 'the', 'expansion', 'options', 'and', 'the', 'relatively', 'inexpensive', 'parts', 'expanding', 'is', 'easy', 'and', 'fun', '.', 'after', 'a', 'few', 'weeks', 'of', 'daily', 'use', 'for', 'at', 'least', 'an', 'hour', 'a', 'day', 'it', 'still', 'looks', 'and', 'plays', 'beautifully', '.', 'overall', 'one', 'of', 'the', 'best', 'purchases', 'i', 'could', 'have', 'made', '.']
+
+Contents of file502.txt after removing stopwords:['kit', 'awesome', '.', 'play', 'garage', 'personal', 'enjoyment', 'performances', 'anything', '.', 'take', 'time', 'break', 'settings', ',', 'able', 'dial', 'pretty', 'much', 'kit', 'sound', '.', 'expansion', 'options', 'relatively', 'inexpensive', 'parts', 'expanding', 'easy', 'fun', '.', 'weeks', 'daily', 'use', 'least', 'hour', 'day', 'still', 'looks', 'plays', 'beautifully', '.', 'overall', 'one', 'best', 'purchases', 'could', 'made', '.']
+
+Contents of file502.txt after removing punctuations:['kit', 'awesome', 'play', 'garage', 'personal', 'enjoyment', 'performances', 'anything', 'take', 'time', 'break', 'settings', 'able', 'dial', 'pretty', 'much', 'kit', 'sound', 'expansion', 'options', 'relatively', 'inexpensive', 'parts', 'expanding', 'easy', 'fun', 'weeks', 'daily', 'use', 'least', 'hour', 'day', 'still', 'looks', 'plays', 'beautifully', 'overall', 'one', 'best', 'purchases', 'could', 'made']
+
+Contents of file502.txt after preprocessing:kit awesome play garage personal enjoyment performances anything take time break settings able dial pretty much kit sound expansion options relatively inexpensive parts expanding easy fun weeks daily use least hour day still looks plays beautifully overall one best purchases could made
+
+
+
+
+Contents of file110.txt before preprocessing:Very nice case. Fits my stratocaster just fine. It feels good knowing I can store my guitar properly, instead of leaning it against the wall.
+
+Contents of file110.txt after lowering:very nice case. fits my stratocaster just fine. it feels good knowing i can store my guitar properly, instead of leaning it against the wall.
+
+Contents of file110.txt after tokenization:['very', 'nice', 'case', '.', 'fits', 'my', 'stratocaster', 'just', 'fine', '.', 'it', 'feels', 'good', 'knowing', 'i', 'can', 'store', 'my', 'guitar', 'properly', ',', 'instead', 'of', 'leaning', 'it', 'against', 'the', 'wall', '.']
+
+Contents of file110.txt after removing stopwords:['nice', 'case', '.', 'fits', 'stratocaster', 'fine', '.', 'feels', 'good', 'knowing', 'store', 'guitar', 'properly', ',', 'instead', 'leaning', 'wall', '.']
+
+Contents of file110.txt after removing punctuations:['nice', 'case', 'fits', 'stratocaster', 'fine', 'feels', 'good', 'knowing', 'store', 'guitar', 'properly', 'instead', 'leaning', 'wall']
+
+Contents of file110.txt after preprocessing:nice case fits stratocaster fine feels good knowing store guitar properly instead leaning wall
+
+
+
+
+Contents of file204.txt before preprocessing:they sound good i found that the wiring is off but can be sequenced properly using this diagram colors are different but sequence is the same top left is hot, bottom left goes with ground/bare, two on right are together or can be used for tap
+
+Contents of file204.txt after lowering:they sound good i found that the wiring is off but can be sequenced properly using this diagram colors are different but sequence is the same top left is hot, bottom left goes with ground/bare, two on right are together or can be used for tap
+
+Contents of file204.txt after tokenization:['they', 'sound', 'good', 'i', 'found', 'that', 'the', 'wiring', 'is', 'off', 'but', 'can', 'be', 'sequenced', 'properly', 'using', 'this', 'diagram', 'colors', 'are', 'different', 'but', 'sequence', 'is', 'the', 'same', 'top', 'left', 'is', 'hot', ',', 'bottom', 'left', 'goes', 'with', 'ground/bare', ',', 'two', 'on', 'right', 'are', 'together', 'or', 'can', 'be', 'used', 'for', 'tap']
+
+Contents of file204.txt after removing stopwords:['sound', 'good', 'found', 'wiring', 'sequenced', 'properly', 'using', 'diagram', 'colors', 'different', 'sequence', 'top', 'left', 'hot', ',', 'bottom', 'left', 'goes', 'ground/bare', ',', 'two', 'right', 'together', 'used', 'tap']
+
+Contents of file204.txt after removing punctuations:['sound', 'good', 'found', 'wiring', 'sequenced', 'properly', 'using', 'diagram', 'colors', 'different', 'sequence', 'top', 'left', 'hot', 'bottom', 'left', 'goes', 'ground/bare', 'two', 'right', 'together', 'used', 'tap']
+
+Contents of file204.txt after preprocessing:sound good found wiring sequenced properly using diagram colors different sequence top left hot bottom left goes two right together used tap
+
+
+
+
+Contents of file807.txt before preprocessing:I love behringer products cheap and reliable...not my favorite distortion but good for the money..
+
+Contents of file807.txt after lowering:i love behringer products cheap and reliable...not my favorite distortion but good for the money..
+
+Contents of file807.txt after tokenization:['i', 'love', 'behringer', 'products', 'cheap', 'and', 'reliable', '...', 'not', 'my', 'favorite', 'distortion', 'but', 'good', 'for', 'the', 'money', '..']
+
+Contents of file807.txt after removing stopwords:['love', 'behringer', 'products', 'cheap', 'reliable', '...', 'favorite', 'distortion', 'good', 'money', '..']
+
+Contents of file807.txt after removing punctuations:['love', 'behringer', 'products', 'cheap', 'reliable', '...', 'favorite', 'distortion', 'good', 'money', '..']
+
+Contents of file807.txt after preprocessing:love behringer products cheap reliable favorite distortion good money
+
+
+
+
+Contents of file867.txt before preprocessing:I have the 7 guitar version of this same stand (which costs less).  As I said in that review, put it together loosely, then, if all is good, tighten it down.  The instructions are OK, just make sure that you read them and identify all the parts (some look alike but are slightly different).  Poor reviews must be by the mechanically challenged.  You get what you pay for - even though the bigger stand costs less - but it works fine.  I have some very expensive instruments in mine with no worries.
+
+Contents of file867.txt after lowering:i have the 7 guitar version of this same stand (which costs less).  as i said in that review, put it together loosely, then, if all is good, tighten it down.  the instructions are ok, just make sure that you read them and identify all the parts (some look alike but are slightly different).  poor reviews must be by the mechanically challenged.  you get what you pay for - even though the bigger stand costs less - but it works fine.  i have some very expensive instruments in mine with no worries.
+
+Contents of file867.txt after tokenization:['i', 'have', 'the', '7', 'guitar', 'version', 'of', 'this', 'same', 'stand', '(', 'which', 'costs', 'less', ')', '.', 'as', 'i', 'said', 'in', 'that', 'review', ',', 'put', 'it', 'together', 'loosely', ',', 'then', ',', 'if', 'all', 'is', 'good', ',', 'tighten', 'it', 'down', '.', 'the', 'instructions', 'are', 'ok', ',', 'just', 'make', 'sure', 'that', 'you', 'read', 'them', 'and', 'identify', 'all', 'the', 'parts', '(', 'some', 'look', 'alike', 'but', 'are', 'slightly', 'different', ')', '.', 'poor', 'reviews', 'must', 'be', 'by', 'the', 'mechanically', 'challenged', '.', 'you', 'get', 'what', 'you', 'pay', 'for', '-', 'even', 'though', 'the', 'bigger', 'stand', 'costs', 'less', '-', 'but', 'it', 'works', 'fine', '.', 'i', 'have', 'some', 'very', 'expensive', 'instruments', 'in', 'mine', 'with', 'no', 'worries', '.']
+
+Contents of file867.txt after removing stopwords:['7', 'guitar', 'version', 'stand', '(', 'costs', 'less', ')', '.', 'said', 'review', ',', 'put', 'together', 'loosely', ',', ',', 'good', ',', 'tighten', '.', 'instructions', 'ok', ',', 'make', 'sure', 'read', 'identify', 'parts', '(', 'look', 'alike', 'slightly', 'different', ')', '.', 'poor', 'reviews', 'must', 'mechanically', 'challenged', '.', 'get', 'pay', '-', 'even', 'though', 'bigger', 'stand', 'costs', 'less', '-', 'works', 'fine', '.', 'expensive', 'instruments', 'mine', 'worries', '.']
+
+Contents of file867.txt after removing punctuations:['7', 'guitar', 'version', 'stand', 'costs', 'less', 'said', 'review', 'put', 'together', 'loosely', 'good', 'tighten', 'instructions', 'ok', 'make', 'sure', 'read', 'identify', 'parts', 'look', 'alike', 'slightly', 'different', 'poor', 'reviews', 'must', 'mechanically', 'challenged', 'get', 'pay', 'even', 'though', 'bigger', 'stand', 'costs', 'less', 'works', 'fine', 'expensive', 'instruments', 'mine', 'worries']
+
+Contents of file867.txt after preprocessing:7 guitar version stand costs less said review put together loosely good tighten instructions ok make sure read identify parts look alike slightly different poor reviews must mechanically challenged get pay even though bigger stand costs less works fine expensive instruments mine worries
+
+
+
